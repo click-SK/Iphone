@@ -148,6 +148,7 @@ nav{
     margin: 0 -0.1176470588em;
     padding: 0 20px;
     
+    
 }
 
 .chapternav-item a {
@@ -157,6 +158,7 @@ nav{
     margin-top: 3px;
     position: relative;
     z-index: 1;
+    
 }
 
 .chapternav-icon {
@@ -164,6 +166,8 @@ nav{
     display: block;
     margin: 0 auto 7px;
     height: 54px;
+    
+    
 }
 
 .chapternav-item--iphone-14-pro{
@@ -240,4 +244,69 @@ nav{
     font-family: SF Pro Display Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
     color: rgb(191 72 0);
     display: block;
+}
+
+section {
+    overflow: hidden;
+    background-color: rgb(0 0 0);
+}
+
+.collection__module {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.unit-copy-wrapper{
+    background-color: rgb(0 0 0);
+    padding-top: 148px;
+    padding-bottom: 0;
+    margin-bottom: 15px;
+}
+
+.headline{
+    color: #fff;
+    text-align: center;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.subhead{
+    display: block;
+    color: rgb(0 0 0 / 0%);
+    -webkit-background-clip: text;
+    background-image: linear-gradient(180deg,rgb(255 182 255),rgb(179 68 255));
+    padding-top: 0.5px;
+    overflow: hidden;
+    background-color: #ffb6ff 0%;
+    margin-top: 16px;
+    font-size: 48px;
+    line-height: 1.0834933333;
+    font-weight: 600;
+    letter-spacing: -0.003em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+    
+}
+
+.cta-links{
+    text-align: center;
+    margin-top: 31px;
+    margin-bottom: 43px;
+    
+}
+
+.cta-links a{
+    color: rgb(76, 51, 237);
+}
+
+
+
+.unit-image-iphone-14-pro-hero-iphone14pro{
+    width: 782px;
+    height: 542px;
+    background-size: 782px 542px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    position: relative;
+    background-image: url(https://www.apple.com/v/iphone/home/bj/images/overview/hero/iphone_14_pro_hero__e4ivycyx40k2_large.jpg); 
 }
