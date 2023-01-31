@@ -1,5 +1,5 @@
-*,body, div, p , li, span{
-    min-width: none;
+body{
+    
     font-family: 'SF Pro Display';
 }
 .adv-wrapper {
@@ -104,6 +104,25 @@ nav{
 
 .chapternav {
     background: rgb(251 251 253);
+    background: rgb(245 245 247 / 70%);
+    padding: 8px 0;
+    text-align: center;
+    height: 100px;
+    z-index: 9987;
+    --chapternav-paddle-width: 34px;
+    --chapternav-paddle-chevron-color: rgb(29 29 31);
+    --chapternav-border-color: rgb(210 210 215);
+    --chapternav-paddle-opacity: 0.8;
+    --chapternav-paddle-hover-opacity: 1;
+    --chapternav-paddle-hover-duration: 200ms;
+    --chapternav-paddle-fade-duration: 150ms;
+    --chapternav-paddle-horizontal-offset: -0.5px;
+    --chapternav-border-width: 1px;
+    --chapternav-safearea-offset: -10px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    
 }
 
 .chapternav-wrapper {
@@ -121,4 +140,92 @@ nav{
     -ms-overflow-style: none;
     list-style: none;
     padding-bottom: 50px;
+}
+
+.chapternav-item {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 -0.1176470588em;
+    padding: 0 20px;
+    
+}
+
+.chapternav-item a {
+    color: rgb(29 29 31);
+    display: block;
+    padding: 0;
+    margin-top: 3px;
+    position: relative;
+    z-index: 1;
+}
+
+.chapternav-icon {
+    background: bottom no-repeat;
+    display: block;
+    margin: 0 auto 7px;
+    height: 54px;
+}
+
+.chapternav-item--iphone-14-pro{
+    background-size: 40px 54px;
+    background-repeat: no-repeat;
+    width: 40px;
+    background-image: url(https://www.apple.com/v/iphone/home/bj/images/chapternav/iphone_14_pro_light__dfhcc00ur2oi_large.svg);
+}
+
+.chapternav-item--iphone-14{
+    background-size: 38px 54px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone/home/bj/images/chapternav/iphone_14_light__fwknsxkf80uq_large.svg);
+    width: 38px;
+}
+
+.chapternav-item--iphone-13{
+    background-size: 36px 54px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone/home/bj/images/chapternav/iphone_13_light__ewo3e0sf67o2_large.svg);
+    width: 36px;
+}
+
+.chapternav-item--iphone-se {
+    background-size: 19px 54px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone/home/bj/images/chapternav/iphone_se_light__fhg8duy6ffau_large.svg);
+    width: 19px;
+}
+
+.chapternav-item--iphone-12 {
+    background-size: 22px 54px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone/home/bj/images/chapternav/iphone_12_light__cxh2ll1zwpw2_large.svg);
+    width: 22px;
+}
+
+.chapternav-item--compare{
+    background-size: 45px 54px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone/home/bj/images/chapternav/iphone_compare_light__f4jj7brpbvm2_large.svg);
+    width: 45px;
+}
+
+.chapternav-item--airpods{
+    background-size: 39px 54px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone/home/bj/images/chapternav/airpods_light__8oj157p2476a_large.svg);
+    width: 39px;
+}
+
+.chapternav-item--airtag {
+    background-size: 30px 54px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone/home/bj/images/chapternav/airtag_light__cb2bmnv6aoeu_large.svg);
+    width: 30px;
+}
+
+.chapternav-item p{
+    font-family: 'SF Pro Display';
+}
+
+.chapternav-item span{
+    font-family: 'SF Pro Display';
 }
