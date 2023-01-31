@@ -1,6 +1,4 @@
 *,body, div, p , li, span{
-    min-width: 320px;
-    max-width: 2560px;
     min-width: none;
     font-family: 'SF Pro Display';
 }
@@ -102,4 +100,25 @@ nav{
     background-position: center center;
     width: 15px;
     background-position: 0px 0;
+}
+
+.chapternav {
+    background: rgb(251 251 253);
+}
+
+.chapternav-wrapper {
+    position: relative;
+    height: 100%;
+    z-index: 1;
+}
+
+.chapternav-items {
+    margin: 0 var(--chapternav-paddle-width);
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+    list-style: none;
+    padding-bottom: 50px;
 }
