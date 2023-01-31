@@ -412,3 +412,82 @@ section{
     margin-right: auto;
 }
 
+.image-wrapper{
+    min-height: 257px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 22px;
+}
+
+.swatch-wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 35px;
+}
+
+.section-compare {
+    background-color: rgb(255 255 255);
+    padding-top: 116px;
+    padding-bottom: 119px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.section-content{
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+}
+
+.typography-headline {
+    font-size: 48px;
+    line-height: 1.0834933333;
+    font-weight: 600;
+    letter-spacing: -0.003em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.compare-table {
+    max-width: 940px;
+    margin-top: 68px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(10,auto);
+    grid-row-gap: 40px;
+    grid-column-gap: 34px;
+    grid-template-areas:
+        "iphone-14-pro-device iphone-14-device iphone-13-device iphone-se-device"
+        "iphone-14-pro-display iphone-14-display iphone-13-display iphone-se-display"
+        "iphone-14-pro-dynamic-island iphone-14-dynamic-island iphone-13-dynamic-island iphone-se-dynamic-island"
+        "iphone-14-pro-sos iphone-14-sos iphone-13-sos iphone-se-sos"
+        "iphone-14-pro-camera iphone-14-camera iphone-13-camera iphone-se-camera"
+        "iphone-14-pro-battery iphone-14-battery iphone-13-battery iphone-se-battery"
+        "iphone-14-pro-chip iphone-14-chip iphone-13-chip iphone-se-chip"
+        "iphone-14-pro-authentication iphone-14-authentication iphone-13-authentication iphone-se-authentication"
+        "iphone-14-pro-cellular iphone-14-cellular iphone-13-cellular iphone-se-cellular";
+}
+
+.image-compare-iphone-14-pro{
+    width: 190px;
+    height: 257px;
+    background-size: 190px 257px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone/home/bj/images/overview/compare/compare_iphone_14_pro__cjmfbiggqhpy_large.jpg);
+}
+
+.image-swatch-iphone-14-pro{
+    width: 68px;
+    height: 14px;
+    background-size: 68px 14px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone/home/bj/images/overview/compare/swatch_iphone_14_pro__c2bl98e0li4i_large.png);
+}
