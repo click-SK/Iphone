@@ -1,32 +1,22 @@
 body{
-    
-    font-family: 'SF Pro Display';
+    overflow-x:hidden;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 .adv-wrapper {
-    /* position: absolute;
-    top: -40px;
-    z-index: 9999; */
     background: #444;
-    line-height: 1;
-    /* top: -40px; */
     width: 100%;
-    right: 0;
     height: 40px;
     z-index: 9999;
 }
 
 .adv-wrapper .adv-wrapper-text {
-    color: #a8a8aa;
     display: block;
-    line-height: 20px;
-    letter-spacing: -0.022em;
-    overflow: hidden;
-    text-decoration: none;
-    text-overflow: ellipsis;
+    padding-top: 13px;
+    font-size: 13px;
+    font-family: "SF Pro Text", "Myriad Set Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(255 255 255);
     text-align: center;
-    max-width: 976px;
-    margin-left: auto;
-    margin-right: auto;
+  
 }
 
 nav{
@@ -105,7 +95,7 @@ nav{
 .chapternav {
     background: rgb(251 251 253);
     background: rgb(245 245 247 / 70%);
-    padding: 8px 0;
+    padding: 3px 0;
     text-align: center;
     height: 100px;
     z-index: 9987;
@@ -231,7 +221,7 @@ nav{
     line-height: 1.3333733333;
     font-weight: 400;
     letter-spacing: -0.01em;
-    font-family: SF Pro Display Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     display: block;
     margin: 0;
 }
@@ -241,7 +231,7 @@ nav{
     line-height: 1.2;
     font-weight: 400;
     letter-spacing: -0.008em;
-    font-family: SF Pro Display Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     color: rgb(191 72 0);
     display: block;
 }
@@ -251,7 +241,7 @@ section{
 
 }
 
-.iphone-14-pro {
+.theme-dark {
     background-color: rgb(0 0 0);
 }
 
@@ -269,7 +259,7 @@ section{
 .headline{
     
     text-align: center;
-    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
 .headline__14-pro{
@@ -287,7 +277,7 @@ section{
     line-height: 1.0834933333;
     font-weight: 600;
     letter-spacing: -0.003em;
-    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     text-align: center;
     
 }
@@ -328,7 +318,7 @@ section{
 
 .headline__14{
     color:  rgb(0, 0, 0);
-    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
 .subhead__14{
@@ -349,5 +339,76 @@ section{
     background-repeat: no-repeat;
     position: relative;
     background-image: url(https://www.apple.com/ua/iphone/home/images/overview/hero/iphone_14_hero__ceub5xriecgi_medium.jpg);
+}
+
+.apple-watch{
+    position: relative;
+    height: 670px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-image: url(https://www.apple.com/v/home/ay/images/heroes/apple-watch-series-8/hero_apple_watch_series_8__bjc1ok5mkjua_medium.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    /* background-position: center; */
+    
+}
+.headline__apple-watch{
+    height: 72px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: 190px 72px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/home/ay/images/logos/apple-watch-series-8/hero_logo_apple_watch_series_8__ezarmmoobhg2_medium.png);
+    background-position: center;
+    /* background-position: 50% 100%; */
+}
+
+.cta-links__apple-watch{
+    margin-top: -15px;
+}
+
+
+
+.unit-image-apple-watch{
+    display: none;
+    height: 481px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-image: url(https://www.apple.com/v/home/ay/images/heroes/apple-watch-series-8/hero_apple_watch_series_8__bjc1ok5mkjua_medium.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.unit__wrapper{
+
+    height: 830px;
+}
+
+.headline__se p {
+    display: inline-block;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.headline__se p {
+    border: 2px solid rgb(2, 2, 2);
+    border-radius: 3px;
+    font-size: 10px;
+
+}
+
+.subhead__se{
+    background-image: linear-gradient(90deg,rgb(30 55 145) 0%,rgb(41 72 177) 40%,rgb(49 83 198) 55%,rgb(56 95 218) 60%);
+    color: rgb(0 0 0 / 0%);
+}
+
+.unit-image-iphone__se{
+    width: 282px;
+    height: 468px;
+
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone/home/bj/images/overview/hero/iphone_se_hero__gd586pazxqqa_medium.jpg);
+    margin-left: auto;
+    margin-right: auto;
 }
 
