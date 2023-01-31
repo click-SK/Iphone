@@ -222,10 +222,22 @@ nav{
     width: 30px;
 }
 
-.chapternav-item p{
-    font-family: 'SF Pro Display';
+.chapternav-label{
+    font-size: 12px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-family: SF Pro Display Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    display: block;
+    margin: 0;
 }
 
-.chapternav-item span{
-    font-family: 'SF Pro Display';
+.chapternav-new{
+    font-size: 10px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: -0.008em;
+    font-family: SF Pro Display Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: rgb(191 72 0);
+    display: block;
 }
