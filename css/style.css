@@ -451,6 +451,7 @@ section{
     line-height: 1.0834933333;
     font-weight: 600;
     letter-spacing: -0.003em;
+    text-align: center;
     font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
@@ -460,11 +461,12 @@ section{
     margin-left: auto;
     margin-right: auto;
     display: grid;
+    grid-auto-flow: column;
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(10,auto);
+    grid-template-rows: repeat(9,auto);
     grid-row-gap: 40px;
     grid-column-gap: 34px;
-    grid-template-areas:
+    /* grid-template-areas:
         "iphone-14-pro-device iphone-14-device iphone-13-device iphone-se-device"
         "iphone-14-pro-display iphone-14-display iphone-13-display iphone-se-display"
         "iphone-14-pro-dynamic-island iphone-14-dynamic-island iphone-13-dynamic-island iphone-se-dynamic-island"
@@ -473,7 +475,7 @@ section{
         "iphone-14-pro-battery iphone-14-battery iphone-13-battery iphone-se-battery"
         "iphone-14-pro-chip iphone-14-chip iphone-13-chip iphone-se-chip"
         "iphone-14-pro-authentication iphone-14-authentication iphone-13-authentication iphone-se-authentication"
-        "iphone-14-pro-cellular iphone-14-cellular iphone-13-cellular iphone-se-cellular";
+        "iphone-14-pro-cellular iphone-14-cellular iphone-13-cellular iphone-se-cellular"; */
 }
 
 .image-compare-iphone-14-pro{
@@ -490,4 +492,17 @@ section{
     background-size: 68px 14px;
     background-repeat: no-repeat;
     background-image: url(https://www.apple.com/v/iphone/home/bj/images/overview/compare/swatch_iphone_14_pro__c2bl98e0li4i_large.png);
+}
+
+.image-compare-iphone-14{
+    width: 180px;
+    height: 257px;
+    background-size: 180px 257px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone/home/bj/images/overview/compare/compare_iphone_14__ct4sjk962pea_large.jpg);
+}
+
+
+.hidden{
+    display: none;
 }
