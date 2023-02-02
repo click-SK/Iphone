@@ -46,12 +46,8 @@ nav{
     right: 0;
     left: 0; */
     z-index: 9999;
-    display: block;
     margin: 0;
     width: 100%;
-    min-width: 1024px;
-    height: 48px;
-    max-height: 44px;
     background: rgba(0,0,0,0.92);
     font-size: 17px;
     -webkit-user-select: none;
@@ -835,10 +831,13 @@ text-align: center;
 }
 
 .typography-tile-copy{
+    margin-top: 0;
+    margin: 25px;
+}
+
+.typography-tile-copy a{
     font-size: 21px;
     color: rgb(41 151 255);
-    margin-top: 0;
-    margin: 25px ;
 }
 
 
@@ -946,96 +945,54 @@ text-align: center;
 }
 
 
-
-
-
-
-
-
-/*------------------------------------*\
-   LOCAL SCREENS
-\*------------------------------------*/
-
-/*------------------------------------*\
-   END LOCAL SCREENS
-\*------------------------------------*/
-
-/*------------------------------------*\
-   LOCAL FIXES
-\*------------------------------------*/
-
-/* iPhone 14 and 14 plus Hero */
-.tile-iphone-14 .hero-bgimage {
-	background-image: url(/ua/iphone/home/images/overview/hero/iphone_14_hero__ceub5xriecgi_large.jpg);
-}
-@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
-	.tile-iphone-14 .hero-bgimage {
-		background-image: url(/ua/iphone/home/images/overview/hero/iphone_14_hero__ceub5xriecgi_large_2x.jpg);
-	}
-}
-@media only screen and (max-width: 1068px) {
-	.tile-iphone-14 .hero-bgimage {
-		width: 529px;
-		height: 481px;
-		background-size: 529px 481px;
-		background-repeat: no-repeat;
-		background-image: url(/ua/iphone/home/images/overview/hero/iphone_14_hero__ceub5xriecgi_medium.jpg);
-	}
-
-	.no-js .tile-apple-arcade .content-wrapper, .tile-apple-arcade .content-wrapper.hide {
-		background-position: center 260px;
-	}
-
-	.section-more-iphone .tile-apple-arcade .links-inline li:last-child .tile-cta, .section-more-iphone .trial-cta {
-		margin-top: 0px;
-	}
-
-	.tile-apple-arcade .links-inline {
-		margin-top: 18px;
-	}
-}
-@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
-	.tile-iphone-14 .hero-bgimage {
-		background-image: url(/ua/iphone/home/images/overview/hero/iphone_14_hero__ceub5xriecgi_medium_2x.jpg);
-	}
-}
-@media only screen and (max-width: 734px) {
-	.tile-iphone-14 .hero-bgimage {
-		width: 349px;
-		height: 317px;
-		background-size: 349px 317px;
-		background-repeat: no-repeat;
-		background-image: url(/ua/iphone/home/images/overview/hero/iphone_14_hero__ceub5xriecgi_small.jpg);
-	}
-}
-@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
-	.tile-iphone-14 .hero-bgimage {
-		background-image: url(/ua/iphone/home/images/overview/hero/iphone_14_hero__ceub5xriecgi_small_2x.jpg);
-	}
+/* ------footer ------ */
+footer{
+    
 }
 
-@media only screen and (min-width: 1069px) {
-	.tile-apple-arcade .tile-copy-1 {
-		max-width: 415px;
-	}
+.ac-gf-directory {
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: 'Arial CE', sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    padding-top: 20px;
+    background-color: rgb(245 245 247);;
+}
 
-	.tile-apple-music .links-inline li:last-child {
-		margin-left: 0px;
-	}
-	.tile-iphone-14 .copy-wrapper .hero-cta {
-		margin-top: 9px;
-	}
+
+
+.ac-gf-directory-column {
+    flex-basis:25%;
 }
-@media only screen and (max-width: 1068px) {
-	.tile-iphone-14 .copy-wrapper .links-stacked.stacked-m {
-		margin-top: 9px;
-	}
+.ac-gf-directory-column-section-list {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    list-style: none;
+    padding: 0;
+
 }
-@media only screen and (max-width: 734px) {
-	.tile-iphone-14 .copy-wrapper .links-stacked.stacked-m {
-		margin-top: 9px;
-	}
+.ac-gf-directory-column-section-title {
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 600;
+    margin-right: 20px;
+    margin-bottom: 0.8em;
 }
-/*------------------------------------*\
-   END LOCAL FIXES
-\*------------------------------------*/
+.ac-gf-directory-column-section-item {
+    display: block;
+    pointer-events: auto;
+    margin-bottom: 0.8em;
+}
+
+
+
+
