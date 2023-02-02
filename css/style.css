@@ -962,13 +962,14 @@ footer{
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
     padding-top: 20px;
-    background-color: rgb(245 245 247);;
+    background-color: rgb(245 245 247);
+    justify-content: space-evenly;
 }
 
 
 
 .ac-gf-directory-column {
-    flex-basis:25%;
+    
 }
 .ac-gf-directory-column-section-list {
     margin-right: 20px;
