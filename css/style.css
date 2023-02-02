@@ -347,10 +347,7 @@ section{
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    background-image: url(https://www.apple.com/v/home/ay/images/heroes/apple-watch-series-8/hero_apple_watch_series_8__bjc1ok5mkjua_medium.jpg);
-    background-repeat: no-repeat;
-    background-position: 50% 100%;
-    /* background-position: center; */
+   
     
 }
 .headline__apple-watch{
@@ -371,14 +368,14 @@ section{
 
 
 .unit-image-apple-watch{
-    display: none;
     height: 481px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
     background-image: url(https://www.apple.com/v/home/ay/images/heroes/apple-watch-series-8/hero_apple_watch_series_8__bjc1ok5mkjua_medium.jpg);
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 50% 100%;
+    background-size: 70%;
 }
 
 .unit__wrapper{
@@ -502,6 +499,9 @@ section{
     background-image: url(https://www.apple.com/v/iphone/home/bj/images/overview/compare/compare_iphone_14__ct4sjk962pea_large.jpg);
 }
 
+.typography-body-reduced{
+    
+}
 
 .hidden{
     display: none;
