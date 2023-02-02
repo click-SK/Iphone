@@ -450,6 +450,8 @@ section{
     margin-bottom: 35px;
 }
 
+/* -----section campare ------ */
+
 .section-compare {
     background-color: rgb(255 255 255);
     padding-top: 116px;
@@ -735,9 +737,78 @@ text-align: center;
     flex-direction: row;
 
 }
+/*  ------ section TV+ */
 
+.section-more-iphone {
+    padding-top: 110px;
+}
 
+.flex-tile-wrapper {
+    width: auto;
+    flex-wrap: wrap;
+    overflow: hidden;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
 
+.two-up-tile-wrapper {
+    width: 100%;
+    text-align: center;
+    flex-grow: 1;
+    box-sizing: border-box;
+    margin: 0 auto 30px;
+}
+.large-12 {
+    flex-basis: 100%;
+    max-width: 100%;
+}
+
+.tv-plus-river {
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(9 10 14);
+    overflow: hidden;
+    height: 100%;
+}
+
+.tv-plus-river .content-wrapper {
+    margin-bottom: 17px;
+    margin-top: 67px;
+    height: auto;
+}
+.two-up-tile-wrapper .content-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tv-plus-river .river-wrapper {
+    max-width: unset;
+    transition: transform .6s ease-out,opacity .6s;
+    position: relative;
+    padding-top: 47.5px;
+}
+
+.tv-plus-river .river-wrapper .transform-wrapper:nth-of-type(2) {
+    margin-left: -210px;
+}
+
+.tv-plus-river .river-wrapper .will-change-t {
+    will-change: transform;
+}
+
+.tv-plus-river .river-wrapper .transform-wrapper {
+    display: flex;
+}
+
+.tv-plus-river .river-wrapper ul {
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
 
 /*------------------------------------*\
    LOCAL SCREENS
