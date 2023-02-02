@@ -499,8 +499,20 @@ section{
     background-image: url(https://www.apple.com/v/iphone/home/bj/images/overview/compare/compare_iphone_14__ct4sjk962pea_large.jpg);
 }
 
+.typography-body-tight{
+    font-size: 17px;
+    line-height: 1.4285914286;
+    font-weight: 500;
+    letter-spacing: -0.016em;
+    font-family: 'Helvetica 35 Thin', sans-serif;
+}
+
 .typography-body-reduced{
-    
+    font-size: 14px;
+    line-height: 1.4285914286;
+    font-weight: 400;
+    letter-spacing: -0.016em;
+    font-family: 'Helvetica 45 Light', sans-serif;
 }
 
 .hidden{
