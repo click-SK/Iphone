@@ -389,7 +389,7 @@ section{
 
 
 .unit-image-apple-watch{
-    height: 481px;
+    height: 575px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -582,6 +582,54 @@ section{
     background-image: url(https://www.apple.com/v/iphone/home/bj/images/overview/compare/swatch_iphone_se__bygc73yqw22u_large.png);
 }
 
+.image-icon-battery {
+    width: 43px;
+    height: 22px;
+    background-size: 43px 22px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone/home/bj/images/overview/compare/icon_battery__wqowcbwj50y2_large.png);
+}
+
+.image-icon-a16 {
+    width: 38px;
+    height: 38px;
+    background-size: 38px 38px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone/home/bj/images/overview/compare/icon_a16__fjqclpv24fma_large.png);
+}
+
+.image-icon-a15 {
+    width: 38px;
+    height: 38px;
+    background-size: 38px 38px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone/home/bj/images/overview/compare/icon_a15__gde9u4vunqqa_large.png);
+}
+
+.image-icon-face-id {
+    width: 38px;
+    height: 38px;
+    background-size: 38px 38px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone/home/bj/images/overview/compare/icon_face_id__eyzciiwkc5oy_large.png);
+}
+
+.image-icon-touch-id {
+    width: 39px;
+    height: 38px;
+    background-size: 39px 38px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone/home/bj/images/overview/compare/icon_touch_id__etlcbgeryay6_large.png);
+}
+
+.image-icon-5g {
+    width: 50px;
+    height: 36px;
+    background-size: 50px 36px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone/home/bj/images/overview/compare/icon_5g__f6zugtbm15ua_large.png);
+}
+
 .typography-compare-size .size {
     margin-bottom: 2px;
 }
@@ -592,11 +640,12 @@ section{
     align-items: center;
 }
 
-.section-compare .cell .image-icon {
+.image-icon {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 8px;
 }
+
 .image-icon-dynamic-island {
     width: 38px;
     height: 38px;
@@ -605,10 +654,54 @@ section{
     background-image: url(https://www.apple.com/v/iphone/home/bj/images/overview/compare/icon_dynamic_island__d9d7y565nzsm_large.png);
 }
 
-.dynamic-island {
+.image-icon-sos {
+    width: 39px;
+    height: 39px;
+    background-size: 39px 39px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone/home/bj/images/overview/compare/icon_sos__d13do2p9n7qu_large.png);
+}
+
+.image-icon-14-pro-camera{
+    width: 36px;
+    height: 36px;
+    background-size: 36px 36px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone/home/bj/images/overview/compare/icon_14_pro_camera__fxu2mrckyk2u_large.png);
+}
+
+.image-icon-14-camera {
+    width: 36px;
+    height: 36px;
+    background-size: 36px 36px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone/home/bj/images/overview/compare/icon_14_camera__e6tkwcfw12wm_large.png);
+}
+
+.image-icon-13-camera {
+    width: 36px;
+    height: 36px;
+    background-size: 36px 36px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone/home/bj/images/overview/compare/icon_13_camera__dke1rclw32oi_large.png);
+}
+
+.image-icon-se-camera {
+    width: 36px;
+    height: 36px;
+    background-size: 36px 36px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone/home/bj/images/overview/compare/icon_se_camera__cs1t6sujjdiu_large.png);
+}
+
+.row {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.column{
+text-align: center;
 }
 
 .typography-body-tight{
@@ -626,6 +719,9 @@ section{
     letter-spacing: -0.016em;
     font-family: 'Arial CE', sans-serif;
 }
+
+
+
 
 .hidden{
     display: none;
