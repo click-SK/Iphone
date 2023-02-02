@@ -2,6 +2,27 @@ body{
     overflow-x:hidden;
     font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-weight: 600;
+    color: rgb(29 29 31);
+}
+
+ol+*, p+*, ul+* {
+    margin-top: .8em;
+}
+
 .adv-wrapper {
     background: #444;
     width: 100%;
@@ -458,6 +479,7 @@ section{
     margin-left: auto;
     margin-right: auto;
     display: grid;
+    justify-items: center;
     grid-auto-flow: column;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(9,auto);
@@ -473,6 +495,28 @@ section{
         "iphone-14-pro-chip iphone-14-chip iphone-13-chip iphone-se-chip"
         "iphone-14-pro-authentication iphone-14-authentication iphone-13-authentication iphone-se-authentication"
         "iphone-14-pro-cellular iphone-14-cellular iphone-13-cellular iphone-se-cellular"; */
+}
+
+.device-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.device-content-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.violator-frameless {
+    font-size: 12px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-family: 'Helvetica 45 Light', sans-serif;
+    display: block;
+    color: rgb(191 72 0);
 }
 
 .image-compare-iphone-14-pro{
@@ -499,6 +543,74 @@ section{
     background-image: url(https://www.apple.com/v/iphone/home/bj/images/overview/compare/compare_iphone_14__ct4sjk962pea_large.jpg);
 }
 
+.image-swatch-iphone-14{
+    width: 86px;
+    height: 14px;
+    background-size: 86px 14px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone/home/bj/images/overview/compare/swatch_iphone_14__eatap63qk6wm_large.png);
+}
+
+.image-compare-iphone-13{
+    width: 180px;
+    height: 257px;
+    background-size: 180px 257px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone/home/bj/images/overview/compare/compare_iphone_13__fqzwhmfmroey_large.jpg);
+}
+
+.image-swatch-iphone-13{
+    width: 104px;
+    height: 14px;
+    background-size: 104px 14px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone/home/bj/images/overview/compare/swatch_iphone_13__cr1wl9d1b5aq_large.png);
+}
+.image-compare-iphone-se{
+    width: 180px;
+    height: 257px;
+    background-size: 180px 257px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone/home/bj/images/overview/compare/compare_iphone_se__d5blqx1pgymq_large.jpg);
+}
+
+.image-swatch-iphone-se{
+    width: 50px;
+    height: 14px;
+    background-size: 50px 14px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone/home/bj/images/overview/compare/swatch_iphone_se__bygc73yqw22u_large.png);
+}
+
+.typography-compare-size .size {
+    margin-bottom: 2px;
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-compare .cell .image-icon {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+}
+.image-icon-dynamic-island {
+    width: 38px;
+    height: 38px;
+    background-size: 38px 38px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone/home/bj/images/overview/compare/icon_dynamic_island__d9d7y565nzsm_large.png);
+}
+
+.dynamic-island {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .typography-body-tight{
     font-size: 17px;
     line-height: 1.4285914286;
@@ -512,9 +624,17 @@ section{
     line-height: 1.4285914286;
     font-weight: 400;
     letter-spacing: -0.016em;
-    font-family: 'Helvetica 45 Light', sans-serif;
+    font-family: 'Arial CE', sans-serif;
 }
 
 .hidden{
     display: none;
+}
+
+.feature-null-secondary {
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: row;
+
 }
