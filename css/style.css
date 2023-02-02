@@ -992,6 +992,11 @@ footer{
     display: block;
     pointer-events: auto;
     margin-bottom: 0.8em;
+    cursor: pointer;
+}
+
+.ac-gf-directory-column-section-item:hover{
+    color: rgb(60, 31, 245);
 }
 
 
