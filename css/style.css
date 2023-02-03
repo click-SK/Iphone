@@ -325,7 +325,6 @@ section{
 .unit-image-iphone-14-pro{
     width: 782px;
     height: 542px;
-    background-size: 782px 542px;
     margin-left: auto;
     margin-right: auto;
     background-repeat: no-repeat;
@@ -464,7 +463,6 @@ section{
 .section-content{
     margin-left: auto;
     margin-right: auto;
-    width: 980px;
 }
 
 .typography-headline {
@@ -477,7 +475,6 @@ section{
 }
 
 .compare-table {
-    max-width: 940px;
     margin-top: 68px;
     margin-left: auto;
     margin-right: auto;
@@ -1003,16 +1000,161 @@ footer{
     color: rgb(60, 31, 245);
 }
 
+/* ----burger menu ---- */
+
+.navbar__burger-menu{
+    display: none;
+}
+
+.burger-icon {
+    display: flex;
+}
+
+
+.ac-gn-menuicon-bread-crust-top {
+    top: 20px;
+    -webkit-transform: translateY(-3px) scaleX(.88235);
+    /* transform: translateY(-3px) scaleX(.88235); */
+    -webkit-transition: -webkit-transform .1596s cubic-bezier(0.52, 0.16, 0.52, 0.84) .1008s;
+    transition: -webkit-transform .1596s cubic-bezier(0.52, 0.16, 0.52, 0.84) .1008s;
+    transition: transform .1596s cubic-bezier(0.52, 0.16, 0.52, 0.84) .1008s;
+    transition: transform .1596s cubic-bezier(0.52, 0.16, 0.52, 0.84) .1008s, -webkit-transform .1596s cubic-bezier(0.52, 0.16, 0.52, 0.84) .1008s;
+}
+
+
+.ac-gn-menuicon-bread-crust-bottom {
+    bottom: 20px;
+    -webkit-transform: translateY(3px) scaleX(.88235);
+    transform: translateY(3px) scaleX(.88235);
+    -webkit-transition: -webkit-transform .1596s cubic-bezier(0.52, 0.16, 0.52, 0.84) .1008s;
+    transition: -webkit-transform .1596s cubic-bezier(0.52, 0.16, 0.52, 0.84) .1008s;
+    transition: transform .1596s cubic-bezier(0.52, 0.16, 0.52, 0.84) .1008s;
+    transition: transform .1596s cubic-bezier(0.52, 0.16, 0.52, 0.84) .1008s, -webkit-transform .1596s cubic-bezier(0.52, 0.16, 0.52, 0.84) .1008s;
+}
+
+.ac-gn-menuicon-bread-crust {
+    display: block;
+    width: 17px;
+    height: 1px;
+    background: rgb(255 255 255);
+    border-radius: 0.5px;
+    position: absolute;
+    left: 7px;
+    z-index: 1;
+    
+}
+
+
+
 
 
 
 /* Large desktops and laptops */
 @media (max-width: 1070px) {
+    .unit-image-iphone-14-pro {
+        left: 14%;
+        background-image: url(https://www.apple.com/v/iphone/home/bj/images/overview/hero/iphone_14_pro_hero__e4ivycyx40k2_small_2x.jpg);
+    }
+
+    .unit-image-apple-watch{
+        background-size: 150%;
+    }
+
+    .section-content{
+        transform: scale(0.8)
+    }
 
 }
 
 /* Landscape tablets and medium desktops */
-@media (min-width: 833px) and (max-width: 833px) {
+@media (max-width: 833px) {
+
+
+
+    .compare-table{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(9,auto);
+    }
+    .navbar__item{
+        display: none;
+    }
+
+    .navbar__burger-menu{
+        display: flex;
+        
+    }
+
+    .navbar__list{
+        justify-content: flex-start;
+    }
+
+
+
+    .burger-apple-icon{
+        display: flex;
+        position: absolute;
+        width: 48px;
+        top: 0;
+        left: 50%;
+        margin-left: -24px;
+        text-align: center;
+        z-index: 1;
+    }
+
+    /* --menu open-- */
+
+    .burger__open__block{
+        display: flex;
+        padding: 0;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(11,11,11);
+    
+    }
+
+    .burger__open__block-list{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        height: 100%;
+        margin-top: 92px;
+    }
+
+    .burger__open__block-item{
+        display: block;
+    }
+
+    .item-border{
+        border-bottom: 1px solid rgb(66 66 69);
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        transform: scale(0.9)
+    }
+
+    .burger__open__block-button{
+        position: absolute;
+        left: 3%;
+        height: 48px;
+        top: -80px;
+        
+
+    }
+
+    .burger__open__block-icon{
+        position: absolute;
+        width: 48px;
+        top: -80px;
+
+    }
+
+    .burger__open__block-search{
+
+    }
+
 
 }
 
@@ -1034,4 +1176,8 @@ footer{
 /* Iphone 5 */
 @media (max-width: 320px) {
 
+}
+
+.hidden{
+    display: none;
 }
