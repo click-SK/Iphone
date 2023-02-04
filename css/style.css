@@ -265,6 +265,7 @@ section{
 
 .theme-dark {
     background-color: rgb(0 0 0);
+    overflow: hidden;
 }
 
 .collection__module {
