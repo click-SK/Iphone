@@ -396,7 +396,7 @@ section{
     background-image: url(https://www.apple.com/v/home/ay/images/heroes/apple-watch-series-8/hero_apple_watch_series_8__bjc1ok5mkjua_medium.jpg);
     background-repeat: no-repeat;
     background-position: 50% 100%;
-    background-size: 70%;
+    background-size: 90%;
 }
 
 .unit__wrapper{
@@ -1044,6 +1044,10 @@ footer{
     
 }
 
+.search{
+    display: none;
+}
+
 
 
 
@@ -1152,7 +1156,24 @@ footer{
     }
 
     .burger__open__block-search{
+        position: absolute;
+        top: -26px;
+        left: 17%;
+    }
 
+    .search{
+        position: absolute;
+        display: block;
+        left: -64%;
+        z-index: 3;
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        line-height: 2.11765em;
+        padding: 0;
+        overflow: hidden;
+        border-radius: 8px;
+        width: 100vh;
     }
 
 
