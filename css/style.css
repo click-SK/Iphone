@@ -1223,6 +1223,10 @@ footer{
 
 }
 
+section{
+    overflow: hidden;
+}
+
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
 
@@ -1234,7 +1238,14 @@ footer{
 }
 
 /* Portrait phones and smaller */
-@media (max-width: 480px) {
+@media (max-width: 530px) {
+    .unit-image-iphone-14-pro {
+        background-size: 50%;
+    }
+
+    /* .unit-image-iphone-14 {
+        background-size: 50%;
+    } */
 
 }
 
