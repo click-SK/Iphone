@@ -551,7 +551,7 @@ section{
 }
 
 .image-compare-iphone-14{
-    /* width: 180px; */
+    width: 180px;
     height: 257px;
     /* background-size: 180px 257px; */
     background-repeat: no-repeat;
